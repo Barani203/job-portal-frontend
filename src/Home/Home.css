@@ -73,9 +73,9 @@
 }
 /* popular vacancies */
 .popular{
-    /* margin: 20px 122px; */
-    padding: 20px 122px;
-    background-color: azure;
+    margin: auto;
+    /* padding: 20px 100px; */
+    /* background-color: azure; */
 }
 .popular h1{
     margin-bottom: 20px;
