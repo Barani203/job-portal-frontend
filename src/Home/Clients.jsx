@@ -4,7 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import ceoImage from "../assets/image.svg";
-import { BiFontFamily } from "react-icons/bi";
+import ceoImage1 from '../assets/image-2.svg'
+import ceoImage2 from '../assets/image-3.svg'
+import ceoImage3  from '../assets/image-4.svg'
+import ceoImage4 from '../assets/image-5.svg'
+import ceoImage5 from '../assets/image-6.svg'
 export default function Clients() {
   var settings = {
     dots: true,
@@ -139,7 +143,7 @@ const data = [
   {
     name: "happy",
     position: "Mern Satsk developer",
-    img_url: "/src/assets/image-1.svg",
+    img_url: ceoImage1,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
@@ -147,7 +151,7 @@ const data = [
   {
     name: "jeni",
     position: "Data Scientice",
-    img_url: "/src/assets/image-2.svg",
+    img_url: ceoImage5,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
       Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
@@ -155,7 +159,7 @@ const data = [
   {
     name: " Michel",
     position: "Backend developer",
-    img_url: "/src/assets/image-3.svg",
+    img_url:ceoImage2,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
     Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
@@ -163,7 +167,7 @@ const data = [
   {
     name: "Reo",
     position: "Ui/Ux desinger",
-    img_url: "/src/assets/image-4.svg",
+    img_url: ceoImage3,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
   Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
@@ -171,7 +175,7 @@ const data = [
   {
     name: "Max",
     position: "web developer",
-    img_url: "/src/assets/image-5.svg",
+    img_url: ceoImage4,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
   Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
@@ -179,7 +183,7 @@ const data = [
   {
     name: "alexa",
     position: "Java developer",
-    img_url: "/src/assets/image-6.svg",
+    img_url:ceoImage5,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
   Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
@@ -187,7 +191,7 @@ const data = [
   {
     name: "Jol",
     position: "Cloud manegement",
-    img_url: ceoImage,
+    img_url: ceoImage1,
     stars: 4,
     disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
   Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,

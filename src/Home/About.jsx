@@ -2,35 +2,39 @@ import React from 'react'
 import './Home.css'
 import logo from '../assets/JOBS-LOGO.webp'
 import ceoImage from '../assets/image.svg'
-
+import ceoImage1 from '../assets/image-2.svg'
+import ceoImage2 from '../assets/image-3.svg'
+import ceoImage3  from '../assets/image-4.svg'
+import ceoImage4 from '../assets/image-5.svg'
+import ceoImage5 from '../assets/image-6.svg'
 const about_data = [
     {
-        imgURL: "/src/assets/image-1.svg",
+        imgURL: ceoImage,
         name: "Adam Smith",
         title: "Director"
     },
     {
-        imgURL: "/src/assets/image-2.svg",
+        imgURL: ceoImage1,
         name: "Adnan Ekwo",
         title: "Assistant Director"
     },
     {
-        imgURL: "/src/assets/image-3.svg",
+        imgURL: ceoImage2,
         name: "Emma Ede",
         title: "HR"
     },
     {
-        imgURL: "/src/assets/image-4.svg",
+        imgURL: ceoImage3,
         name: "Mercy Ngozi",
         title: "Admin"
     },
     {
-        imgURL: "/src/assets/image-5.svg",
+        imgURL: ceoImage4,
         name: "John Adekunle",
         title: "IT Support"
     },
     {
-        imgURL: "/src/assets/image-6.svg",
+        imgURL: ceoImage5,
         name: "Emeka Usman",
         title: "IT Support"
     },
